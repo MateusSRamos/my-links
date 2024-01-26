@@ -9,9 +9,13 @@ body{
 }
 
 img {
+
     border-radius: 20px;
-    border: 2px solid limegreen;
-    
+    border: 2px solid limegreen; 
+}
+
+img:hover{
+    border: 2px solid white;
 }
 
 h1 {
@@ -41,6 +45,11 @@ a{
 
     display: block;
     border-radius: 5px;
+}
+
+a:hover{
+    background-color: white;
+    color: limegreen;
 }
 
 footer{
